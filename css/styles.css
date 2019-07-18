@@ -11,7 +11,6 @@ h2 {
   background-color: #ff4c68;
 }
 #testimonials {
-  padding: 7% 15%;
   text-align: center;
   background-color: #ef8172;
   color: #fff;
@@ -20,6 +19,9 @@ h2 {
   background-color: #ef8172;
   padding: 3% 0% 7%;
   text-align: center;
+}
+.carousel-item {
+  padding: 7% 15%;
 }
 .meet {
   font-family: "Montserrat";
