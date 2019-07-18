@@ -20,6 +20,13 @@ h2 {
   padding: 3% 0% 7%;
   text-align: center;
 }
+#pricing {
+  text-align: center;
+  padding: 100px;
+}
+.pricing-col {
+  padding: 3% 2%;
+}
 .carousel-item {
   padding: 7% 15%;
 }
