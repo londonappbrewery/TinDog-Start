@@ -1,8 +1,25 @@
 body {
   font-family: "Montserrat";
 }
+h2 {
+  font-family: "Ubuntu";
+  line-height: 2.5rem;
+  font-weight: bold;
+  font-size: 2rem;
+}
 #title {
   background-color: #ff4c68;
+}
+#testimonials {
+  padding: 7% 15%;
+  text-align: center;
+  background-color: #ef8172;
+  color: #fff;
+}
+#press {
+  background-color: #ef8172;
+  padding: 3% 0% 7%;
+  text-align: center;
 }
 .meet {
   font-family: "Montserrat";
@@ -62,4 +79,13 @@ p {
 }
 .icon:hover {
   color: #ff4c68;
+}
+.testimonial-image {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+.press-logo {
+  width: 15%;
+  margin: 20px 20px;
 }
