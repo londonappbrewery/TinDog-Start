@@ -7,6 +7,18 @@ h2 {
   font-weight: bold;
   font-size: 2rem;
 }
+@media screen and (max-width: 1115px) {
+  .title-image {
+    position: static !important;
+    transform: rotate(0) !important;
+  }
+.meet {
+    text-align: center;
+  }
+#title {
+      text-align: center;
+  }
+}
 #title {
   background-color: #ff4c68;
 }
