@@ -42,6 +42,8 @@ h2 {
 .title-image {
   transform: rotate(22.5deg);
   width: 60%;
+  position: relative;
+  left: 120px;
 }
 .navbar-brand{
   font-family: "Ubuntu";
@@ -78,6 +80,7 @@ p {
 }
 #features {
   margin: 7% 15%;
+  background-color: #ffffff;
 }
 .feature-box{
   text-align: center;
