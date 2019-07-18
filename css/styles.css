@@ -1,8 +1,11 @@
 body {
   font-family: "Montserrat";
+  text-align: center;
 }
-h2 {
-  font-family: "Ubuntu";
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Montserrat";
+}
+.price-text {
   line-height: 2.5rem;
   font-weight: bold;
   font-size: 2rem;
@@ -15,26 +18,46 @@ h2 {
 .meet {
     text-align: center;
   }
-#title {
-      text-align: center;
-  }
+}
+.feature-title {
+  font-size: 1.5rem;
+}
+.testimonial-text {
+  font-size: 2rem;
+  line-height: 1.5;
 }
 #title {
   background-color: #ff4c68;
+  text-align: left;
 }
 #testimonials {
-  text-align: center;
+
   background-color: #ef8172;
   color: #fff;
 }
 #press {
   background-color: #ef8172;
   padding: 3% 0% 7%;
-  text-align: center;
+
 }
 #pricing {
-  text-align: center;
+
   padding: 100px;
+}
+#cta {
+  background-color: #ff4c68;
+
+  font-family: "Montserrat";
+  font-weight: bold;
+  color: white;
+  padding: 7% 15% 0%;
+}
+#footer {
+  background-color: #fff;
+
+}
+.footer-button {
+  margin: 10px;
 }
 .pricing-col {
   padding: 3% 2%;
@@ -76,10 +99,6 @@ h2 {
 }
 .download-button {
   margin: 5% 3% 5% 0%;
-}
-h3 {
-  font-weight: bold;
-  font-family: "Montserrat";
 }
 p {
   font-size: 16px;
