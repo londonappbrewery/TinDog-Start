@@ -1,0 +1,134 @@
+body {
+  font-family: "Montserrat";
+  text-align: center;
+}
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Montserrat";
+}
+.price-text {
+  line-height: 2.5rem;
+  font-weight: bold;
+  font-size: 2rem;
+}
+@media screen and (max-width: 1115px) {
+  .title-image {
+    position: static !important;
+    transform: rotate(0) !important;
+  }
+.meet {
+    text-align: center;
+  }
+}
+.feature-title {
+  font-size: 1.5rem;
+}
+.testimonial-text {
+  font-size: 2rem;
+  line-height: 1.5;
+}
+#title {
+  background-color: #ff4c68;
+  text-align: left;
+}
+#testimonials {
+
+  background-color: #ef8172;
+  color: #fff;
+}
+#press {
+  background-color: #ef8172;
+  padding: 3% 0% 7%;
+
+}
+#pricing {
+
+  padding: 100px;
+}
+#cta {
+  background-color: #ff4c68;
+
+  font-family: "Montserrat";
+  font-weight: bold;
+  color: white;
+  padding: 7% 15% 0%;
+}
+#footer {
+  background-color: #fff;
+
+}
+.footer-button {
+  margin: 10px;
+}
+.pricing-col {
+  padding: 3% 2%;
+}
+.carousel-item {
+  padding: 7% 15%;
+}
+.meet {
+  font-family: "Montserrat";
+  color: #FFF;
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+.container-fluid {
+  padding: 3% 15%;
+}
+.title-image {
+  transform: rotate(22.5deg);
+  width: 60%;
+  position: relative;
+  left: 120px;
+}
+.navbar-brand{
+  font-family: "Ubuntu";
+  font-size: 3.5rem;
+  font-weight: bold;
+}
+.navbar {
+  padding-left: 0px;
+  padding-bottom: 4.5rem;
+}
+.nav-item {
+  padding: 0 18px 18px 0;
+}
+.nav-link {
+  font-family: "Montserrat-Light";
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+.download-button {
+  margin: 5% 3% 5% 0%;
+}
+p {
+  font-size: 16px;
+}
+.icon-center {
+  align-content: center;
+}
+.col-lg-4 {
+  align-items: center;
+}
+#features {
+  margin: 7% 15%;
+  background-color: #ffffff;
+}
+.feature-box{
+  text-align: center;
+  padding: 5%;
+}
+.icon {
+  color: #ef8172;
+}
+.icon:hover {
+  color: #ff4c68;
+}
+.testimonial-image {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+.press-logo {
+  width: 15%;
+  margin: 20px 20px;
+}
