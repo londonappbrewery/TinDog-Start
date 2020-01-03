@@ -22,6 +22,10 @@ body {
   font-family: "Ubuntu";
   font-size: 2.5rem;
   font-weight: bold;
+  text-shadow: 3px 3px #eb452b,
+                  5px 5px #efa032,
+                  7px 7px #017e7f,
+                  9px 9px #052939;
 }
 
 .nav-item {
