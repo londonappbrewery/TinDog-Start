@@ -50,9 +50,15 @@ h1 {
 /* iphone image styling; rotate iphone image in all major browsers */
 .iphone-image {
   width: 60%;
-  -webkit-transform:rotate(30deg);
-  -moz-transform: rotate(30deg);
-  -ms-transform: rotate(30deg);
-  -o-transform: rotate(30deg);
-  transform: rotate(30deg);
+  -webkit-transform:rotate(25deg);
+  -moz-transform: rotate(25deg);
+  -ms-transform: rotate(25deg);
+  -o-transform: rotate(25deg);
+  transform: rotate(25deg);
+  background-color: #eed;
+  -moz-box-shadow: 10px 10px 5px  rgba(0,0,0,0.6);
+  -webkit-box-shadow: 10px 10px 5px  rgba(0,0,0,0.6);
+  -o-box-shadow: 10px 10px 5px  rgba(0,0,0,0.6);
+  box-shadow: 10px 10px 5px  rgba(0,0,0,0.6);
+  border-radius: 45px;
 }
