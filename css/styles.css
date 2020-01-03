@@ -1,0 +1,58 @@
+/* 1st main section background color */
+#title {
+  background-color: #C70039 ;
+}
+
+/* font for entire page */
+body {
+  font-family: "Montserrat";
+}
+
+/* 1st container styling */
+.container-fluid {
+  padding: 3% 15%;
+}
+
+/* navigation bar styling */
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: "Montserrat-Light", sans-serif;
+}
+
+/* only one h1 - styling */
+h1 {
+  font-family: "Montserrat";
+  font-size: 3rem;
+  line-height: 1.5;
+  color: white;
+}
+
+/* button styling */
+.download-button {
+  font-family: "Ubuntu";
+  margin: 5% 3% 5% 0;
+}
+
+/* iphone image styling; rotate iphone image in all major browsers */
+.iphone-image {
+  width: 60%;
+  -webkit-transform:rotate(30deg);
+  -moz-transform: rotate(30deg);
+  -ms-transform: rotate(30deg);
+  -o-transform: rotate(30deg);
+  transform: rotate(30deg);
+}
