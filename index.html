@@ -3,6 +3,14 @@
   <head>
     <meta charset="utf-8" />
     <title>TinDog</title>
+
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Montserrat:100,300,400,900|Ubuntu&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- CSS Stylesheets -->
     <link
       rel="stylesheet"
       href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
@@ -10,10 +18,16 @@
       crossorigin="anonymous"
     />
     <link rel="stylesheet" href="css/styles.css" />
+
+    <!-- Font Awesome -->
     <link
-      href="https://fonts.googleapis.com/css?family=Montserrat:900|Ubuntu&display=swap"
       rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.12.0/css/all.css"
+      integrity="sha384-REHJTs1r2ErKBuJB0fCK99gCYsVjwxHrSU0N7I1zl9vZbggVJXRMsv/sLlOAGb4M"
+      crossorigin="anonymous"
     />
+
+    <!-- Bootstrap Scripts -->
     <script
       src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
       integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
@@ -33,47 +47,60 @@
 
   <body>
     <section id="title">
-      <!-- Nav Bar -->
-      <nav class="navbar navbar-expand-lg navbar-dark">
-        <a class="navbar-brand" href="">tindog</a>
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-toggle="collapse"
-          data-target="#navbarTogglerDemo01"
-          aria-controls="navbarTogglerDemo01"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
-          <ul class="navbar-nav ml-auto">
-            <li class="nav-item">
-              <a class="nav-link" href="">Contact</a>
-            </li>
+      <div class="container-fluid">
+        <!-- Nav Bar -->
+        <nav class="navbar navbar-expand-lg navbar-dark">
+          <a class="navbar-brand" href="">tindog</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarTogglerDemo01"
+            aria-controls="navbarTogglerDemo01"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="">Contact</a>
+              </li>
 
-            <li class="nav-item">
-              <a class="nav-link" href="">Pricing</a>
-            </li>
+              <li class="nav-item">
+                <a class="nav-link" href="">Pricing</a>
+              </li>
 
-            <li class="nav-item">
-              <a class="nav-link" href="">Download</a>
-            </li>
-          </ul>
-        </div>
-      </nav>
+              <li class="nav-item">
+                <a class="nav-link" href="">Download</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
 
-      <!-- Title -->
+        <!-- Title -->
 
-      <div class="row">
-        <div class="col-lg-6">
-          <h1>Meet new and interesting dogs nearby.</h1>
-          <button type="button">Download</button>
-          <button type="button">Download</button>
-        </div>
-        <div class="col-lg-6">
-          <img src="images/iphone6.png" alt="iphone-mockup" />
+        <div class="row">
+          <div class="col-lg-6">
+            <h1>Meet new and interesting dogs nearby.</h1>
+            <button class="btn btn-dark btn-lg download-button" type="button">
+              <i class="fab fa-apple"></i> Download
+            </button>
+            <button
+              class="btn btn-outline-light btn-lg download-button"
+              type="button"
+            >
+              <i class="fab fa-google-play"></i> Download
+            </button>
+          </div>
+          <div class="col-lg-6">
+            <img
+              class="title-img"
+              src="images/iphone6.png"
+              alt="iphone-mockup"
+            />
+          </div>
         </div>
       </div>
     </section>
