@@ -4,17 +4,18 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>tinDog</title>
+  <title>frinDog</title>
+
+  <!-- Google fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:900|Ubuntu&display=swap" rel="stylesheet">
 
   <!-- CSS stylesheets -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
   <link rel="stylesheet" href="css/styles.css">
 
-  <!-- Google fonts -->
-  <link href="https://fonts.googleapis.com/css?family=Montserrat:900|Ubuntu&display=swap" rel="stylesheet">
-
   <!-- Font awesome  -->
   <script src="https://kit.fontawesome.com/8bebd64d95.js" crossorigin="anonymous"></script>
+
 </head>
 
 <body>
@@ -22,14 +23,14 @@
   <section id="title">
 
     <div class="container-fluid">
+
       <!-- Nav Bar -->
 
       <nav class="navbar navbar-expand-lg navbar-dark">
 
-        <a class="navbar-brand" href="">tindog</a>
+        <a class="navbar-brand" href="">frindog</a>
 
-        <button class="navbar-toggler" type="button" data-toggle="collape" data-target="#navbarTogglerDemo02"
-            aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+        <button class="navbar-toggler" type="button" data-toggle="collape" data-target="#navbarTogglerDemo02">
           <span class="navbar-toggler-icon"></span>
         </button>
 
@@ -37,13 +38,13 @@
 
           <ul class="navbar-nav ml-auto">
             <li class="nav-item">
-              <a class="nav-link" href="">Contact</a>
+              <a class="nav-link" href="#footer">Contact</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="">Pricing</a>
+              <a class="nav-link" href="#pricing">Pricing</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="">Download</a>
+              <a class="nav-link" href="#cta">Download</a>
             </li>
           </ul>
 
@@ -75,30 +76,53 @@
 
   <section id="features">
 
-    <h3>Easy to use.</h3>
-    <p>So easy to use, even your dog could do it.</p>
-
-    <h3>Elite Clientele</h3>
-    <p>We have all the dogs and greatest breeds.</p>
-
-    <h3>Guaranteed to work.</h3>
-    <p>Find the <strong>Best Friend</strong> of your dog's life or your money back.</p>
+    <div class="row">
+      <div class="feature-box col-lg-4">
+        <span class="fas fa-check-circle fa-6x"></span>
+        <h3>Easy to use</h3>
+        <p>So easy to use, even your dog could do it.</p>
+      </div>
+      <div class="feature-box col-lg-4">
+        <span class="fas fa-bullseye fa-6x"></span>
+        <h3>Elite Clientele</h3>
+        <p>We have all the dogs, the greatest breeds.</p>
+      </div>
+      <div class="feature-box col-lg-4">
+        <span class="fas fa-heart fa-6x"></span>
+        <h3>Always works</h3>
+        <p>Find the friend of your dog's life or your money back.</p>
+      </div>
+    </div>
 
   </section>
 
-
-  <!-- Testimonials -->
+  <!-- Carousel with Testimonials -->
 
   <section id="testimonials">
-
-    <h2>I no longer have to sniff other dogs for a friend. I've found the best Labrador on tinDog. Woof.</h2>
-    <img src="images/Sheepadoodle.png" alt="dog-profile">
-    <em>Maximus II, Texas</em>
-
-    <h2 class="testimonial-text">My dog used to be so lonely, but with tinDog's help, they've found the best friend of their life. I think.</h2>
-    <img class="testimonial-image" src="images/lady-img.jpg" alt="lady-profile">
-    <em>Austin, TX</em>
-
+    <div class="carousel">
+      <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <h2>I no longer have to sniff other dogs for a friend. I've found the best Labrador on frinDog. Woof.</h2>
+            <img class="testimonial-image" src="images/Sheepadoodle.png" alt="dog-profile">
+            <em>Maximus II, Austin, TX</em>
+          </div>
+          <div class="carousel-item">
+            <h2 class="testimonial-text">My dog used to be so lonely, but with frinDog's help, they've found the best friend of their life.</h2>
+            <img class="testimonial-image" src="images/lady-img.jpg" alt="lady-profile">
+            <em>Emma, San Fransico , CA</em>
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+    </div>
   </section>
 
 
@@ -163,7 +187,7 @@
 
   <footer id="footer">
 
-    <p>© Copyright 2020 tinDog</p>
+    <p>© Copyright 2020 frinDog</p>
 
   </footer>
 

@@ -1,11 +1,30 @@
 /* 1st main section background color */
 #title {
-  background-color: #C70039 ;
+  background-color: #C70039;
 }
 
 /* font for entire page */
 body {
   font-family: "Montserrat";
+}
+
+h2 {
+  font-family: "Montserrat-Bold";
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+h3 {
+  font-family: "Montserrat";
+  font-size: 2.2rem;
+}
+
+p {
+  font-family: "Ubuntu";
+  font-size: 1.6em;
+  padding-top: 5px;
+  padding-bottom: 8px;
+  color: grey;
 }
 
 /* 1st container styling */
@@ -20,49 +39,93 @@ body {
 
 .navbar-brand {
   font-family: "Ubuntu";
-  font-size: 2.5rem;
+  font-size: 3.8rem;
   font-weight: bold;
   text-shadow: 3px 3px #eb452b,
-                  5px 5px #efa032,
-                  7px 7px #017e7f,
-                  9px 9px #052939;
+    5px 5px #efa032,
+    7px 7px #017e7f,
+    9px 9px #052939;
+    padding-bottom: 20px;
 }
 
 .nav-item {
-  padding: 0 18px;
+  padding: 0 45px;
 }
 
 .nav-link {
-  font-size: 1.2rem;
-  font-family: "Montserrat-Light", sans-serif;
+  font-size: 1.8rem;
+  font-family: "Montserrat-Light";
 }
 
 /* only one h1 - styling */
-h1 {
-  font-family: "Montserrat";
-  font-size: 3.5rem;
+.mnHdr {
+  font-family: "Montserrat-Black";
+  font-size: 5rem;
   line-height: 1.5;
-  color: white;
+  color: #ffffff;
 }
 
 /* button styling */
 .download-button {
   font-family: "Ubuntu";
+  font-size: 2.5rem;
+  /* font-weight: bold; */
   margin: 5% 3% 5% 0;
 }
 
 /* iphone image styling; rotate iphone image in all major browsers */
 .iphone-image {
-  width: 60%;
-  -webkit-transform:rotate(25deg);
+  width: 65%;
+  -webkit-transform: rotate(25deg);
   -moz-transform: rotate(25deg);
   -ms-transform: rotate(25deg);
   -o-transform: rotate(25deg);
   transform: rotate(25deg);
-  background-color: #eed;
-  -moz-box-shadow: 10px 10px 5px  rgba(0,0,0,0.6);
-  -webkit-box-shadow: 10px 10px 5px  rgba(0,0,0,0.6);
-  -o-box-shadow: 10px 10px 5px  rgba(0,0,0,0.6);
-  box-shadow: 10px 10px 5px  rgba(0,0,0,0.6);
+  background-color: #C70039;
+  -moz-box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.6);
+  -webkit-box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.6);
+  -o-box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.6);
+  box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.6);
   border-radius: 45px;
+}
+
+#features {
+  padding: 7% 15%;
+}
+
+.feature-box {
+  text-align: center;
+  padding: 4.5%;
+}
+
+.fas {
+  color: red;
+  padding-bottom: 1rem;
+}
+
+.fas:hover {
+  color: #F212C2;
+}
+
+/* following styles testimonial section */
+#testimonials {
+  padding: 7% 15%;
+  text-align: center; 
+  background-color: #C70039;
+}
+
+.carousel {
+  color: #ffffff;
+}
+
+.testimonial-image {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+#press {
+  background-color: #C70039;
+  text-align: center;
+  padding: 3% 15%;
 }
