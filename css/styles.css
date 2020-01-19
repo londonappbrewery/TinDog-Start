@@ -8,14 +8,13 @@ body {
   font-family: "Montserrat";
 }
 
-h2 {
+h1, h2, h3, h4, h5, h6 {
   font-family: "Montserrat-Bold";
   font-size: 3rem;
   line-height: 1.5;
 }
 
 h3 {
-  font-family: "Montserrat";
   font-size: 2.2rem;
 }
 
@@ -75,7 +74,7 @@ p {
 
 /* iphone image styling; rotate iphone image in all major browsers */
 .iphone-image {
-  width: 65%;
+  width: 60%;
   -webkit-transform: rotate(25deg);
   -moz-transform: rotate(25deg);
   -ms-transform: rotate(25deg);
@@ -87,10 +86,13 @@ p {
   -o-box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.6);
   box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.6);
   border-radius: 45px;
+  position: absolute;
+  right: 30%;
 }
 
 #features {
   padding: 7% 15%;
+  position: relative;
 }
 
 .feature-box {
@@ -109,8 +111,8 @@ p {
 
 /* following styles testimonial section */
 #testimonials {
-  padding: 7% 15%;
-  text-align: center; 
+  padding: 7% 12%;
+  text-align: center;
   background-color: #C70039;
 }
 
@@ -127,5 +129,10 @@ p {
 #press {
   background-color: #C70039;
   text-align: center;
-  padding: 3% 15%;
+  padding: 3%;
+}
+
+.press-logo {
+  width: 15%;
+  margin: 10px 20px 50px;
 }
