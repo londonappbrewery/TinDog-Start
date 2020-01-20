@@ -3,24 +3,23 @@
 
 <head>
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>frinDog</title>
 
-  <!-- Google fonts -->
-  <link href="https://fonts.googleapis.com/css?family=Montserrat:900|Ubuntu&display=swap" rel="stylesheet">
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Montserrat|Ubuntu" rel="stylesheet">
 
-  <!-- CSS stylesheets -->
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <!-- CSS Stylesheets -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
   <link rel="stylesheet" href="css/styles.css">
 
-  <!-- Font awesome  -->
-  <script src="https://kit.fontawesome.com/8bebd64d95.js" crossorigin="anonymous"></script>
+  <!-- Font Awesome -->
+  <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
 
 </head>
 
 <body>
 
-  <section id="title">
+  <section class="colored-section" id="title">
 
     <div class="container-fluid">
 
@@ -30,11 +29,11 @@
 
         <a class="navbar-brand" href="">frindog</a>
 
-        <button class="navbar-toggler" type="button" data-toggle="collape" data-target="#navbarTogglerDemo02">
-          <span class="navbar-toggler-icon"></span>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02">
+            <span class="navbar-toggler-icon"></span>
         </button>
 
-        <div class="collapse navbar-collapse" id="nabarTogglerDemo02">
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
 
           <ul class="navbar-nav ml-auto">
             <li class="nav-item">
@@ -49,7 +48,6 @@
           </ul>
 
         </div>
-
       </nav>
 
 
@@ -58,77 +56,84 @@
       <div class="row">
 
         <div class="col-lg-6">
-          <h1 class="mnHdr">Meet new and interesting dogs nearby.</h1>
-          <button type="button" class="btn btn-dark btn-lg download-button"><span class="fab fa-apple"></span> Download</button>
-          <button type="button" class="btn btn-outline-light btn-lg download-button"><span class="fab fa-google-play"></span> Download</button>
+          <h1 class="big-heading">Meet new and interesting dogs nearby.</h1>
+          <button type="button" class="btn btn-dark btn-lg download-button"><i class="fab fa-apple"></i> Download</button>
+          <button type="button" class="btn btn-outline-light btn-lg download-button"><i class="fab fa-google-play"></i> Download</button>
         </div>
 
         <div class="col-lg-6">
-          <img class="iphone-image" src="images/iphone6.png" alt="iphone-mockup">
+          <img class="title-image" src="images/iphone6.png" alt="iphone-mockup">
         </div>
 
       </div>
+
     </div>
+
   </section>
 
 
   <!-- Features -->
 
-  <section id="features">
+  <section class="white-section" id="features">
 
-    <div class="row">
-      <div class="feature-box col-lg-4">
-        <span class="fas fa-check-circle fa-6x"></span>
-        <h3>Easy to use</h3>
-        <p>So easy to use, even your dog could do it.</p>
+    <div class="container-fluid">
+
+      <div class="row">
+        <div class="feature-box col-lg-4">
+          <i class="icon fas fa-check-circle fa-4x"></i>
+          <h3 class="feature-title">Easy to use.</h3>
+          <p>So easy to use, even your dog could do it.</p>
+        </div>
+
+        <div class="feature-box col-lg-4">
+          <i class="icon fas fa-bullseye fa-4x"></i>
+          <h3 class="feature-title">Elite Clientele</h3>
+          <p>We have all the dogs, the greatest dogs.</p>
+        </div>
+
+        <div class="feature-box col-lg-4">
+          <i class="icon fas fa-heart fa-4x"></i>
+          <h3 class="feature-title">Guaranteed to work.</h3>
+          <p>Find the friend of your dog's life or your money back.</p>
+        </div>
       </div>
-      <div class="feature-box col-lg-4">
-        <span class="fas fa-bullseye fa-6x"></span>
-        <h3>Elite Clientele</h3>
-        <p>We have all the dogs, the greatest breeds.</p>
-      </div>
-      <div class="feature-box col-lg-4">
-        <span class="fas fa-heart fa-6x"></span>
-        <h3>Always works</h3>
-        <p>Find the friend of your dog's life or your money back.</p>
-      </div>
+
+
     </div>
-
   </section>
 
-  <!-- Carousel with Testimonials -->
 
-  <section id="testimonials">
-    <div class="carousel">
-      <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <h2>I no longer have to sniff other dogs for a friend. I've found the best Labrador on frinDog. Woof.</h2>
-            <img class="testimonial-image" src="images/Sheepadoodle.png" alt="dog-profile">
-            <em>Maximus II, Austin, TX</em>
-          </div>
-          <div class="carousel-item">
-            <h2 class="testimonial-text">My dog used to be so lonely, but with frinDog's help, they've found the best friend of their life.</h2>
-            <img class="testimonial-image" src="images/lady-img.jpg" alt="lady-profile">
-            <em>Emma, San Fransico , CA</em>
-          </div>
+  <!-- Testimonials -->
+
+  <section class="colored-section" id="testimonials">
+
+    <div id="testimonial-carousel" class="carousel slide" data-ride="false">
+      <div class="carousel-inner">
+        <div class="carousel-item active container-fluid">
+          <h2 class="testimonial-text">I no longer have to sniff other dogs for friends. I've found the nicest Corgi on FrinDog. Woof.</h2>
+          <img class="testimonial-image" src="images/Sheepadoodle.png" alt="dog-profile">
+          <em>Maximus II, Austin, TX</em>
         </div>
-        <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="sr-only">Previous</span>
-        </a>
-        <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="sr-only">Next</span>
-        </a>
+        <div class="carousel-item container-fluid">
+          <h2 class="testimonial-text">My dog used to be so lonely, but with FrinDog's help, they've found the friend of their life. I think.</h2>
+          <img class="testimonial-image" src="images/lady-img.jpg" alt="lady-profile">
+          <em>Emma, San Francisco, CA</em>
+        </div>
       </div>
+      <a class="carousel-control-prev" href="#testimonial-carousel" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+      </a>
+      <a class="carousel-control-next" href="#testimonial-carousel" role="button" data-slide="next">
+    <span class="carousel-control-next-icon"></span>
+      </a>
     </div>
+
   </section>
 
 
   <!-- Press -->
 
-  <section id="press">
+  <section class="colored-section" id="press">
     <img class="press-logo" src="images/techcrunch.png" alt="tc-logo">
     <img class="press-logo" src="images/tnw.png" alt="tnw-logo">
     <img class="press-logo" src="images/bizinsider.png" alt="biz-insider-logo">
@@ -139,61 +144,96 @@
 
   <!-- Pricing -->
 
-  <section id="pricing">
+  <section class="white-section" id="pricing">
 
-    <h2>A Plan for Every Dog's Needs</h2>
+    <h2 class="section-heading">A Plan for Every Dog's Needs</h2>
     <p>Simple and affordable price plans for your and your dog.</p>
 
+    <div class="row">
 
-    <h3>Chihuahua</h3>
-    <h2>Free</h2>
-    <p>5 Matches Per Day</p>
-    <p>10 Messages Per Day</p>
-    <p>Unlimited App Usage</p>
-    <button type="button">Sign Up</button>
+      <div class="pricing-column col-lg-4 col-md-6">
+        <div class="card">
+          <div class="card-header">
+            <h3>Chihuahua</h3>
+          </div>
+          <div class="card-body">
+            <h2 class="price-text">Free</h2>
+            <p>5 Matches Per Day</p>
+            <p>10 Messages Per Day</p>
+            <p>Unlimited App Usage</p>
+            <button class="btn btn-lg btn-block btn-outline-dark" type="button">Sign Up</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="pricing-column col-lg-4 col-md-6">
+        <div class="card">
+          <div class="card-header">
+            <h3>Labrador</h3>
+          </div>
+          <div class="card-body">
+            <h2 class="price-text">$49 / mo</h2>
+            <p>Unlimited Matches</p>
+            <p>Unlimited Messages</p>
+            <p>Unlimited App Usage</p>
+            <button class="btn btn-lg btn-block btn-dark" type="button">Sign Up</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="pricing-column col-lg-4">
+        <div class="card">
+          <div class="card-header">
+            <h3>Mastiff</h3>
+          </div>
+          <div class="card-body">
+            <h2 class="price-text">$99 / mo</h2>
+            <p>Pirority Listing</p>
+            <p>Unlimited Matches</p>
+            <p>Unlimited Messages</p>
+            <p>Unlimited App Usage</p>
+            <button class="btn btn-lg btn-block btn-dark" type="button">Sign Up</button>
+
+          </div>
+        </div>
+      </div>
 
 
-    <h3>Labrador</h3>
-    <h2>$49 / mo</h2>
-    <p>Unlimited Matches</p>
-    <p>Unlimited Messages</p>
-    <p>Unlimited App Usage</p>
-    <button type="button">Sign Up</button>
 
-
-    <h3>Mastiff</h3>
-    <h2>$99 / mo</h2>
-    <p>Pirority Listing</p>
-    <p>Unlimited Matches</p>
-    <p>Unlimited Messages</p>
-    <p>Unlimited App Usage</p>
-    <button type="button">Sign Up</button>
+    </div>
 
   </section>
 
 
   <!-- Call to Action -->
 
-  <section id="cta">
+  <section class="colored-section" id="cta">
 
-    <h3>Find the <strong>Best Friend</strong> of Your Dog's Life Today.</h3>
-    <button type="button">Download</button>
-    <button type="button">Download</button>
+    <div class="container-fluid">
 
+      <h3 class="big-heading">Find the True Friend of Your Dog's Life Today.</h3>
+      <button class="download-button btn btn-lg btn-dark" type="button"><span class="fab fa-apple"></span> Download</button>
+      <button class="download-button btn btn-lg brn-light" type="button"><span class="fab fa-google-play"></span> Download</button>
+    </div>
   </section>
 
 
   <!-- Footer -->
 
-  <footer id="footer">
-
-    <p>© Copyright 2020 frinDog</p>
-
+  <footer class="white-section" id="footer">
+    <div class="container-fluid">
+      <span class="social-icon fab fa-facebook-f"></span>
+      <span class="social-icon fab fa-twitter"></span>
+      <span class="social-icon fab fa-instagram"></span>
+      <span class="social-icon fas fa-envelope"></span>
+      <p class="copyright">© Copyright 2020 FrinDog</p>
+    </div>
   </footer>
 
-  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+  <!-- Bootstrap Scripts -->
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 
 </body>
 
