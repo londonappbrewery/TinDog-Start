@@ -1,0 +1,58 @@
+
+body {
+  font-family: "Montserrat", sans-serif;
+}
+#title {
+  background-color: #ff4c68;
+}
+
+h1 {
+  color: white;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 800;
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: lighter;
+}
+
+.container-fluid {
+  padding: 3% 15%;
+}
+
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+.dogphoneimage {
+  padding-top: 10px;
+  width: 60%;
+  transform: rotate(25deg);
+}
+
+.boldmontserrat {
+  color: white;
+  font-family: "Montserrat-Black", sans-serif;
+  font-size: 2rem;
+
+}
+
+.boldubuntu {
+  color: white;
+  font-family: "Ubuntu", sans-serif;
+  font-size: 2rem;
+  font-weight: bold;
+}
