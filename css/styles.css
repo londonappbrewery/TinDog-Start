@@ -3,18 +3,11 @@ body {
 }
 
 /* Sections */
-
 #title {
   background-color: #ff4c68;
 }
 
-#features {
-  background-color: #fff;
-  position: relative;
-}
-
 /* Fonts */
-
 h1 {
   color: white;
   font-family: "Montserrat", sans-serif;
@@ -28,7 +21,6 @@ h2 {
   font-weight: 800;
   font-size: 3rem;
   line-height: 1.5;
-
 }
 
 h3 {
@@ -59,8 +51,20 @@ p {
   padding: 3% 10% 7%;
 }
 
-/* Navigation bar */
+.arrow-return-top {
+  position: fixed;
+  right: 0.5%;
+  bottom: 0.5%;
+  z-index: 10;
+  text-decoration: none;
+  color: #8f8f8f;
+}
 
+.arrow-return-top:hover {
+  color: black;
+}
+
+/* Navigation bar */
 .navbar {
   padding: 0 0 4.5rem;
 }
@@ -76,7 +80,7 @@ p {
 }
 
 /* End nav bar */
-
+/* Title Section */
 .download-button {
   margin: 5% 3% 5% 0;
 }
@@ -87,6 +91,25 @@ p {
   transform: rotate(25deg);
   position: absolute;
   right: 30%;
+}
+
+/* We are targeting viewport with max-width */
+@media (max-width: 1028px) {
+
+  #title {
+    text-align: center;
+  }
+
+  .dogphoneimage {
+    position: static;
+    transform: rotate(0);
+  }
+}
+
+/* Features Section */
+#features {
+  background-color: #fff;
+  position: relative;
 }
 
 .featuresrow {
@@ -108,19 +131,16 @@ p {
 }
 
 /* Testimonial section */
-
 #testimonials {
   text-align: center;
   background-color: #ef8172;
   color: #fff;
-  position: relative;
 }
 
 .testimonial-image {
   width: 20%;
   border-radius: 100%;
   margin: 20px;
-
 }
 
 #press {
@@ -138,13 +158,43 @@ p {
   padding: 7% 15%;
 }
 
-
 /* Pricing section*/
 #pricing {
-padding: 100px;
-text-align: center;
+  padding: 100px;
+  text-align: center;
 }
 
 .pricing-column {
   padding: 3% 2%;
+}
+
+/* Cta Section */
+
+#cta {
+  background-color: #ff4c68;
+  text-align: center;
+  padding: 7% 10%;
+}
+
+.cta-title {
+  color: white;
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+/* Footer Section */
+
+#footer {
+  background-color: white;
+  text-align: center;
+  padding: 7% 10%;
+}
+
+.footer-icon {
+  margin: 3% 1%;
+  color: #343a40
+}
+
+.footer-icon:hover {
+  color: black;
 }
