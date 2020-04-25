@@ -1,10 +1,19 @@
-
 body {
   font-family: "Montserrat", sans-serif;
 }
+
+/* Sections */
+
 #title {
   background-color: #ff4c68;
 }
+
+#features {
+  background-color: #fff;
+  position: relative;
+}
+
+/* Fonts */
 
 h1 {
   color: white;
@@ -14,6 +23,43 @@ h1 {
   line-height: 1.5;
 }
 
+h2 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 800;
+  font-size: 3rem;
+  line-height: 1.5;
+
+}
+
+h3 {
+  color: #343a40;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 800;
+  font-size: 1.5rem;
+}
+
+p {
+  color: #8f8f8f;
+}
+
+.boldmontserrat {
+  color: white;
+  font-family: "Montserrat-Black", sans-serif;
+  font-size: 2rem;
+}
+
+.boldubuntu {
+  color: white;
+  font-family: "Ubuntu", sans-serif;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.container-fluid {
+  padding: 3% 10% 7%;
+}
+
+/* Navigation bar */
 
 .navbar {
   padding: 0 0 4.5rem;
@@ -29,9 +75,7 @@ h1 {
   font-weight: lighter;
 }
 
-.container-fluid {
-  padding: 3% 15%;
-}
+/* End nav bar */
 
 .download-button {
   margin: 5% 3% 5% 0;
@@ -41,18 +85,66 @@ h1 {
   padding-top: 10px;
   width: 60%;
   transform: rotate(25deg);
+  position: absolute;
+  right: 30%;
 }
 
-.boldmontserrat {
-  color: white;
-  font-family: "Montserrat-Black", sans-serif;
-  font-size: 2rem;
+.featuresrow {
+  padding: 7% 10%;
+}
+
+.featurescol {
+  padding: 4%;
+  text-align: center;
+}
+
+.featuresicon {
+  margin-bottom: 1rem;
+  color: #ef8172;
+}
+
+.featuresicon:hover {
+  color: #ff4c68;
+}
+
+/* Testimonial section */
+
+#testimonials {
+  text-align: center;
+  background-color: #ef8172;
+  color: #fff;
+  position: relative;
+}
+
+.testimonial-image {
+  width: 20%;
+  border-radius: 100%;
+  margin: 20px;
 
 }
 
-.boldubuntu {
-  color: white;
-  font-family: "Ubuntu", sans-serif;
-  font-size: 2rem;
-  font-weight: bold;
+#press {
+  background-color: #ef8172;
+  text-align: center;
+  padding-bottom: 3%;
+}
+
+.press-logo {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+.carousel-item {
+  padding: 7% 15%;
+}
+
+
+/* Pricing section*/
+#pricing {
+padding: 100px;
+text-align: center;
+}
+
+.pricing-column {
+  padding: 3% 2%;
 }
