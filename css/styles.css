@@ -175,6 +175,7 @@ p {
 }
 
 .price-text {
+  color: black;
   font-size: 3rem;
   line-height: 1.5;
 }
