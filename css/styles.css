@@ -4,13 +4,10 @@ body {
 }
 
 /*  Title Section */
-#title {
-  background-color: #ff4c68;
-  text-align: left;
-}
 
 #title .container-fluid {
   padding: 3% 15% 7%;
+  text-align: left;
 }
 
 /* Fonts */
@@ -44,8 +41,22 @@ p {
   font-weight: bold;
 }
 
+/* Containers */
+
 .container-fluid {
   padding: 7% 10%;
+}
+
+/* Sections */
+
+.colored-section {
+  background-color: #ff4c68;
+  color: #fff;
+
+}
+
+.white-section {
+  background-color: #fff;
 }
 
 .arrow-return-top {
@@ -106,7 +117,6 @@ p {
 
 /* Features Section */
 #features {
-  background-color: #fff;
   position: relative;
 }
 
@@ -131,7 +141,6 @@ p {
 /* Testimonial section */
 #testimonials {
   background-color: #ef8172;
-  color: #fff;
 }
 
 .testimonial-text {
@@ -172,13 +181,6 @@ p {
 
 .pricing-column {
   padding: 3% 2%;
-}
-
-/* Cta Section */
-
-#cta {
-  background-color: #ff4c68;
-  color: #fff;
 }
 
 /* Footer Section */
