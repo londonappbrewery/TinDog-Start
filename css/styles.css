@@ -14,11 +14,6 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 800;
 }
 
-h3 {
-  color: #343a40;
-  font-size: 1.5rem;
-}
-
 p {
   color: #8f8f8f;
 }
@@ -113,6 +108,11 @@ p {
   position: relative;
 }
 
+.feature-title {
+  color: #343a40;
+  font-size: 1.5rem;
+}
+
 .featuresrow {
   padding: 7% 10%;
 }
@@ -168,6 +168,11 @@ p {
 #pricing {
   padding: 100px;
   text-align: center;
+}
+
+.pricing-card-title {
+  color: #343a40;
+  font-size: 1.5rem;
 }
 
 .price-text {
