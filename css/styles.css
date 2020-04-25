@@ -1,10 +1,16 @@
 body {
   font-family: "Montserrat", sans-serif;
+  text-align: center;
 }
 
-/* Sections */
+/*  Title Section */
 #title {
   background-color: #ff4c68;
+  text-align: left;
+}
+
+#title .container-fluid {
+  padding: 3% 15% 7%;
 }
 
 /* Fonts */
@@ -18,11 +24,6 @@ p {
   color: #8f8f8f;
 }
 /* Headings */
-
-.big-heading {
-  font-size: 3.5rem;
-  line-height: 1.5;
-}
 
 .section-heading {
   color: #343a40;
@@ -44,7 +45,7 @@ p {
 }
 
 .container-fluid {
-  padding: 3% 10% 7%;
+  padding: 7% 10%;
 }
 
 .arrow-return-top {
@@ -83,7 +84,7 @@ p {
 
 .dogphoneimage {
   padding-top: 10px;
-  width: 60%;
+  width: 45%;
   transform: rotate(25deg);
   position: absolute;
   right: 30%;
@@ -93,6 +94,7 @@ p {
 @media (max-width: 1028px) {
 
   #title {
+    color: #fff;
     text-align: center;
   }
 
@@ -113,13 +115,8 @@ p {
   font-size: 1.5rem;
 }
 
-.featuresrow {
-  padding: 7% 10%;
-}
-
 .featurescol {
   padding: 4%;
-  text-align: center;
 }
 
 .featuresicon {
@@ -133,7 +130,6 @@ p {
 
 /* Testimonial section */
 #testimonials {
-  text-align: center;
   background-color: #ef8172;
   color: #fff;
 }
@@ -151,7 +147,6 @@ p {
 
 #press {
   background-color: #ef8172;
-  text-align: center;
   padding-bottom: 3%;
 }
 
@@ -160,14 +155,9 @@ p {
   margin: 20px 20px 50px;
 }
 
-.carousel-item {
-  padding: 7% 15%;
-}
-
 /* Pricing section*/
 #pricing {
   padding: 100px;
-  text-align: center;
 }
 
 .pricing-card-title {
@@ -188,22 +178,13 @@ p {
 
 #cta {
   background-color: #ff4c68;
-  text-align: center;
-  padding: 7% 10%;
-}
-
-.cta-title {
-  color: white;
-  font-size: 3.5rem;
-  line-height: 1.5;
+  color: #fff;
 }
 
 /* Footer Section */
 
 #footer {
   background-color: white;
-  text-align: center;
-  padding: 7% 10%;
 }
 
 .footer-icon {
