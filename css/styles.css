@@ -101,8 +101,8 @@ p {
   right: 30%;
 }
 
-
-@media screen and (max-device-width: 480px) and (orientation: portrait) {
+/* We are targeting viewport with max-width */
+@media (max-width: 1028px) {
 
   #title {
     color: #fff;
