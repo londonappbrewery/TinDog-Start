@@ -1,0 +1,166 @@
+/* Main HTML*/
+body {
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Montserrat-Bold', sans-serif;
+}
+
+p {
+  color: #8f8f8f;
+  font-size: 15px;
+}
+
+/* Headings */
+.title-heading{
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 3.5rem;
+  font-weight: 900;
+  line-height: 1.5;
+}
+
+.section-heading{
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.container-fluid {
+  padding: 7% 15%;
+}
+
+/* Navigation Bar */
+.navbar {
+  padding: 0 0 1.5rem;
+}
+
+.navbar-brand {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 2.5rem;
+}
+
+.nav-item {
+  padding-left: 18px;
+  padding-right: 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: 'Montserrat-Light', sans-serif;
+}
+
+/* Title Section */
+#title {
+  background-color: #ff4c68;
+  color: white;
+  overflow: hidden;
+  text-align: left;
+}
+
+#title .container-fluid{
+  padding: 3% 15% 7%;
+}
+
+.download-button {
+  margin: 5% 3% 5% 3%;
+}
+
+.img-iphone {
+  width: 60%;
+  transform: rotate(25deg);
+  position: absolute;
+  right: 20%;
+}
+
+/* Features */
+#features {
+  padding: 4% 15% 2% 15%;
+  background-color: white;
+  position: relative;
+  z-index: 1;
+}
+
+.features-icon {
+  color: #ef8172;
+}
+
+.features-icon:hover {
+  color: #ff4c68;
+}
+
+.feature-titles{
+  font-size: 1.5rem;
+}
+
+/* Testimonials */
+#testimonials {
+  background-color: #ef8172;
+  color: #ffffff;
+}
+
+.testimonial-image {
+  /* this makes it a circle! */
+  border-radius: 100%;
+  width: 10%;
+  margin: 20px;
+}
+
+
+.testimonial-text{
+  font-size: 3rem;
+  line-height: 1.5;
+}
+/* Press */
+#press {
+  padding-bottom: 3%;
+  background-color: #ef8172;
+}
+
+.press-logo {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+/* Pricing */
+#pricing {
+  padding: 100px;
+}
+
+.pricing-column {
+  padding: 3% 2%
+}
+
+ .price-text{
+   font-size: 3rem;
+   line-height: 1.5;
+ }
+
+
+/* Call to Action */
+#cta {
+  color: #fff;
+  background-color: #ff4c68;
+  font-family: 'Montserrat-Black', sans-serif;
+  font-size: 3rem;
+}
+
+/* Footer */
+#footer {
+  background-color: #fff;
+}
+
+.footer-icon {
+  padding: 1rem .5rem;
+}
+
+@media (max-width: 1028px) {
+  #title {
+    text-align: center;
+  }
+
+  .img-iphone {
+    position: static;
+    transform: rotate(0);
+  }
+}
