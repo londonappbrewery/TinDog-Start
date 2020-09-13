@@ -2,8 +2,12 @@
     background-color: #ff4c68;
     color: white;
     padding-bottom: -1000px;
+    padding-bottom: 7%;
 }
+.div {
+    position: absolute;
 
+}
 .body {
     font-family: 'Montserrat', sans-serif;
 }
@@ -16,12 +20,17 @@
 
 .container-fluid {
     padding: 1% 10%;
+    
 }
 
 /* Title image */
 .Iphonex {
     width: 60%;
     transform: rotate(25deg);
+    position: absolute;
+    z-index: 0;
+    /* bottom: 1px; */
+    
 }
 
 /* dowmload button */
@@ -43,8 +52,12 @@
 /*  */
 .z1{
     padding: 6rem  6rem 6rem 6rem;
-    margin: 30px 30px 30px 30px;
+    margin: 0px 30px 30px 30px;
     text-align: center;
+    background-color: white;
+    position: relative;
+    z-index: 1;
+    
 }
 .h2 {
     font-size: 1.5rem;
@@ -88,7 +101,57 @@
 #pricing {
     padding: 100px;
     text-align: center;
+    
 }
 .pad-colm {
     padding: 3% 2%;
+}
+
+/* media querty */
+@media (max-width:1028px) {
+
+    .Iphonex {
+        position: static;
+        transform: rotate(0);
+    }
+    #title {
+        text-align: center;
+
+    }
+    .testimonials {
+        /* text-align: center;
+         */
+         padding: 2000px 500px;
+    }
+}
+/* last pattern */
+#cta {
+    background-color: #ff4c68;
+    color: white;
+    text-align: center;
+    padding: 4% 10%;
+
+}
+.poi {
+    padding: 3% 30%;
+    
+    /* width: 2; */
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2rem;
+    line-height: 1.4;
+    
+}
+.Download-button2 {
+   margin: 0% 1%;
+
+}
+#footer {
+    padding: 50px 100px;
+    text-align: center;
+}
+.fotter-icon {
+    padding: 0 10px;
+}
+.social-icone {
+    margin: 0 7px;
 }
