@@ -4,6 +4,7 @@
 <head>
   <meta charset="utf-8">
   <title>TinDog</title>
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
   <link rel="stylesheet" href="css/styles.css">
 </head>
 
@@ -50,14 +51,21 @@
 
   <section id="testimonials">
 
-    <h2>I no longer have to sniff other dogs for love. I've found the hottest Corgi on TinDog. Woof.</h2>
-    <img src="images/dog-img.jpg" alt="dog-profile">
-    <em>Pebbles, New York</em>
-
-    <!-- <h2 class="testimonial-text">My dog used to be so lonely, but with TinDog's help, they've found the love of their life. I think.</h2>
-    <img class="testimonial-image" src="images/lady-img.jpg" alt="lady-profile">
-    <em>Beverly, Illinois</em> -->
-
+    <section id="testimonials">
+      <div class="w3-display-container">
+        <div class="w3-container mySlides w3-animate-right">
+          <h2>I no longer have to sniff other dogs for love. I've found the hottest Corgi on TinDog. Woof.</h2>
+          <img class="testimonial-image" src="images/dog-img.jpg" alt="dog-profile">
+          <em class="author">Pebbles, New York</em>
+        </div>
+        <div class="w3-container mySlides w3-animate-right" style="display: none;">
+          <h2 class="testimonial-text">My dog used to be so lonely, but with TinDog's help, they've found the love of their life. I think.</h2>
+          <img class="testimonial-image " src="images/lady-img.jpg" alt="lady-profile">
+          <em class="author">Beverly, Illinois</em>
+        </div>
+        <div class="w3-button w3-display-left" onclick="plusDivs(-1)">&#10094;</div>
+        <div class="w3-button w3-display-right" onclick="plusDivs(1)">&#10095;</div>
+      </div>
   </section>
 
 
@@ -125,6 +133,47 @@
     <p>© Copyright 2018 TinDog</p>
 
   </footer>
+
+  <script>
+    var slideIndex = 1;
+    carousel()
+    function carousel(){
+      var i, x;
+      x=document.getElementsByClassName("mySlides");
+      slideIndex++;
+      for(i=0; i<x.length; i++){
+        x[i].style.display="none";
+      }
+      if(slideIndex>x.length) {slideIndex=1}
+      x[slideIndex-1].style.display="block";
+      setTimeout(carousel, 4000);
+    }
+
+    showDivs(slideIndex);
+
+    function plusDivs(n) {
+      showDivs(slideIndex += n);
+    }
+
+    function showDivs(n) {
+      var i;
+      var x = document.getElementsByClassName("mySlides");
+      if (n > x.length) {slideIndex = 1}
+      if (n < 1) {slideIndex = x.length}
+      for (i = 0; i < x.length; i++) {
+        x[i].style.display = "none";  
+      }
+      x[slideIndex-1].style.display = "block";  
+    }
+    function showDrop(id){
+      var x=document.getElementById(id);
+      if(x.className.indexOf(" w3-show")>=0){
+        x.className=x.className.replace(" w3-show", "");
+      }else{
+        x.className+=" w3-show";
+      }
+    }
+  </script>
 
 
 </body>
