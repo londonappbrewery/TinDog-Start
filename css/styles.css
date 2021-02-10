@@ -1,0 +1,35 @@
+.fonts{
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+#title{
+    background-color: #ff4c68;
+    background-color: grey;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#title h1{
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    font-weight: 900;
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+.navbar-brand{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 2.5rem;
+}
+
+.container-fluid{
+    padding:3% 15%;
+}
+
+.iphone-mockup{
+    transform: rotate(15deg);
+}
+
+.max-vh-90{
+    max-height: 90vh !important;
+}
