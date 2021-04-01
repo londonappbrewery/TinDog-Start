@@ -1,7 +1,12 @@
+body{
+    font-family: 'Montserrat';
+    
+}
+/*section title*/
 h1{
     font-family: 'Montserrat-Black', sans-serif;
     padding-top: 100px;
-    font-size:3rem;
+    font-size:3.5rem;
     line-height: 1.5;
     font-weight: 900;
     color:white;
@@ -12,13 +17,22 @@ h1{
 .container-fluid{
     padding: 3% 15%;
 }
+/*nav bar css begin*/
 .navbar-brand{
+    font-family: "Ubuntu";
+    font-weight: bold;
     font-size: 40px;
+    padding-left:0px;
+}
+.navbar{
+    padding-left: 0px;
 }
 .nav-item{
     font-size: 20px;
     padding-left: 50px;
+    font-weight:lighter;
 }
+/* download buttons begin*/
 .btn{
     margin-top:10px;
 }
@@ -28,9 +42,31 @@ h1{
 #ios-btn{
     margin-top:20px;
 }
+/*iphone image begin*/
 #iphone{
     transform: rotate(20deg);
     padding-top: 100px;
     margin-left: 74px;
     width: 65%;
+}
+/*features */
+h3{
+    font-family: 'Montserrat-Bold';
+}
+p{
+    color:gray;
+}
+.icon{
+    color:#ef8172;
+    margin-bottom: 1rem;
+}
+.icon:hover{
+    color:#ff4c68;
+}
+#features{
+    padding:7% 15%;
+}
+.featuresdiv{
+text-align: center;
+padding:5%;
 }
