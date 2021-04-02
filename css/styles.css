@@ -72,7 +72,7 @@ padding:5%;
 }
 /*testimonials*/
 #testimonials{
-    padding:7% 15% 1%;
+    
     text-align: center;
     background-color: #ef8172;
     color:#fff;
@@ -83,13 +83,16 @@ h2{
     font-size:3rem;
     line-height: 1.5;
 }
-#testimonial-image{
+.testimonial-image{
     border-radius: 100%;
     width:10%;
     margin:30px;
 }
 em{
     font-weight: bold;
+}
+.carousel-item{
+    padding:7% 15% 1%;
 }
 /*press*/
 #press{
@@ -101,3 +104,4 @@ em{
     width:15%;
     margin:20px 20px 50px;
 }
+/*pricing*/
