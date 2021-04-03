@@ -15,7 +15,7 @@ h1{
     background-color: #ff4c68;
 }
 .container-fluid{
-    padding: 3% 15%;
+    padding: 3% 15% 7%;
 }
 /*nav bar css begin*/
 .navbar-brand{
@@ -45,9 +45,11 @@ h1{
 /*iphone image begin*/
 #iphone{
     transform: rotate(20deg);
-    padding-top: 100px;
+    padding-top: 60px;
     margin-left: 74px;
     width: 65%;
+    position: absolute;
+    
 }
 /*features */
 h3{
@@ -65,6 +67,9 @@ p{
 }
 #features{
     padding:7% 15%;
+    background-color:#fff;
+    z-index: 1;
+    position: relative;
 }
 .featuresdiv{
 text-align: center;
@@ -105,3 +110,57 @@ em{
     margin:20px 20px 50px;
 }
 /*pricing*/
+#pricing{
+    padding:100px;
+    text-align: center;
+}
+.pricing{
+    padding:2% 3%;
+}
+/*cta*/
+#cta{
+    background-color:#ff4c68;
+    padding:7% 15%;
+    text-align: center;
+   
+}
+.cta-h3{
+    font-family: 'Montserrat-Bold';
+    color: #fff;
+    font-size:3.5rem;
+}
+#iosf-btn{
+    margin-top:4%;
+    margin-right: 20px;
+}
+#playstoref-btn{
+    margin-top:4%;
+}
+/*footer*/
+#footer{
+    padding:7% 15%;
+    text-align: center;
+    font-family: 'Montserrat-Bold';
+    font-weight: bold;
+    color:black;
+}
+.socialmedia{
+    color:black;
+}
+.socialmedia:hover{
+    color: #ef8172;
+}
+.social-icon{
+    margin:20px 10px;
+}
+/*media quries*/
+@media (max-width:1028px) {
+    #title{
+        text-align: center;
+    }
+#iphone{
+    position: static;
+    transform: rotate(0deg);
+}
+
+}
