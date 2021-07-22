@@ -6,7 +6,7 @@
 
 h1 {
     font-family: 'Montserrat-Bold', sans-serif ;
-    font-size: 3rem;
+    font-size: 3.5rem;
     line-height: 1.5;
 }
 
@@ -46,4 +46,16 @@ body {
     width: 60% !important;
     transform: rotate(25deg) ;
     margin-left: 20%;
+}
+
+#features {
+    padding: 7% 15%;
+}
+
+.box {
+    text-align: center;
+}
+
+h3 {
+    font-family: 'Montserrat-Bold', sans-serif ;
 }
