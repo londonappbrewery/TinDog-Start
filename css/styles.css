@@ -44,4 +44,5 @@ body {
 
 .title-image {
     width: 60% !important;
+    transform: rotate(25deg) !important;
 }
