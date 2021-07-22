@@ -8,3 +8,9 @@ h1 {
     font-size: 3rem;
     line-height: 1.5;
 }
+
+.container-fluid {
+    padding: 3% 15% !important;
+
+
+}
