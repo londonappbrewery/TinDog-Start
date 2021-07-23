@@ -85,6 +85,8 @@ h2 {
     font-family: 'Montserrat-Bold', sans-serif ;
     font-size: 3rem;
     line-height: 1.5;
+    padding-left: 5%;
+    padding-right: 5%;
 }
 
 .testimonial-image {
@@ -101,9 +103,17 @@ h2 {
 
 .press-logo {
     width: 15%;
-    margin: 20px 20px 50px;
+    margin: 20px 50px;
+}
+
+.carousel {
+    height: 500px;
 }
 
 .carousel-item {
-    padding: 7% 15%;
+    padding-top: 20px;
+}
+
+.tic {
+    font-size: 2.5rem;
 }
