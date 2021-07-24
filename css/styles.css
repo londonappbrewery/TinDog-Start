@@ -103,7 +103,7 @@ h2 {
 
 .press-logo {
     width: 15%;
-    margin: 20px 50px;
+    margin: 10px 50px;
 }
 
 .carousel {
@@ -114,6 +114,10 @@ h2 {
     padding-top: 20px;
 }
 
-.tic {
+.ttc {
     font-size: 2.5rem;
+}
+
+.tic {
+    padding: 7%;
 }
