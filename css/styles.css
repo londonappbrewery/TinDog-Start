@@ -1,7 +1,7 @@
 
 #title {
     background-color: #ff4c68;
-    color: #fff;
+    color: white;
 }
 
 h1 {
@@ -11,7 +11,7 @@ h1 {
 }
 
 .container-fluid {
-    padding: 3% 15% ;
+    padding: 3% 15% 7%;
 }
 
 body {
@@ -47,10 +47,14 @@ body {
     transform: rotate(25deg) ;
     margin-left: 20%;
     margin-top: 50px;
+    position: absolute;
 }
 
 #features {
     padding: 7% 15%;
+    background-color: white;
+    position: relative;
+    z-index: 1;
 }
 
 .box {
@@ -120,4 +124,13 @@ h2 {
 
 .tic {
     padding: 7%;
+}
+
+#pricing {
+    padding: 100px;
+    text-align: center;
+}
+
+.pricing-col {
+    padding: 3% 2%;
 }
