@@ -53,9 +53,9 @@ h2 {
 
 /* Title image */
 .title-image {
-  width: 25%;
-  transform: rotate(25deg);
   position: absolute;
+  width: 30%;
+  transform: rotate(25deg);
 }
 
 /* Features */
@@ -125,4 +125,41 @@ h2 {
 
 .pricing-column {
   padding: 3%
+}
+
+/* CTA section */
+#cta {
+  background-color: #ff4c68;
+  color: #ffff;
+  padding: 7% 15%;
+  text-align: center;
+}
+
+.cta-heading {
+  font-size: 'Montserrat';
+  font-weight: 900;
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+/* Footer */
+#footer {
+  padding: 7% 15%;
+  text-align: center;
+}
+
+.social-icon {
+  margin: 20px 10px;
+}
+
+@media (max-width: 1028px) {
+  #title {
+   text-align: center;
+  }
+
+  .title-image {
+    position: static;
+    transform: rotate(0);
+    width: 60%;
+  }
 }
