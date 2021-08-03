@@ -7,8 +7,19 @@ h1, h2, h3, h4, h5, h7 {
   font-family: 'Montserrat', sans-serif;
 }
 
+/* Containers */
 .container-fluid {
   padding: 7% 15%;
+}
+
+/* Sections */
+.colored-section {
+  background-color: #ff4c68;
+  color: #fff;
+}
+
+.white-section {
+  background-color: #fff;
 }
 
  /* Heading */
@@ -53,14 +64,9 @@ h1, h2, h3, h4, h5, h7 {
 }
 
 /* Title Section */
-#title {
-  background-color: #ff4c68;
-  color: #fff;
-  text-align: left;
- }
-
  #title .container-fluid {
    padding: 3% 15% 7%;
+   text-align: left;
  }
 
 /* Title image */
@@ -72,7 +78,6 @@ h1, h2, h3, h4, h5, h7 {
 
 /* Features */
 #features {
-  background-color: #fff;
   position: relative;
 }
 
@@ -102,7 +107,6 @@ h1, h2, h3, h4, h5, h7 {
 /* Testimonial section */
 #testimonials {
   background-color: #ef8172;
-  color: #fff;
 }
 
 .testimonial-text {
@@ -140,12 +144,6 @@ h1, h2, h3, h4, h5, h7 {
 
 .pricing-column {
   padding: 3%
-}
-
-/* CTA section */
-#cta {
-  background-color: #ff4c68;
-  color: #ffff;
 }
 
 /* Footer */
