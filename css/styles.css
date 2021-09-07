@@ -1,29 +1,169 @@
 body {
+  font-family: 'Montserrat', sans-serif;
 
-  font-family: 'Ubuntu', sans-serif;
 }
 
 h1 {
   font-family: 'Montserrat', sans-serif;
-  color: white;
+  font-weight: 900;
+  font-size: 3.5rem;
+  line-height: 1.5;
+  margin: 40px 0;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
   font-weight: 900;
   font-size: 3rem;
   line-height: 1.5;
-  padding: 15px, 15px;
 }
 
 #title {
+  color: #fff;
   background-color: #ff4c68;
 }
 
+
+
 .container-fluid {
-  padding: 3% 15%;
+  padding: 3% 15% 7%;
 }
+
+.btn {
+  margin: 0 10px 10px 0;
+}
+
+/* Navigation Bar */
 
 .navbar-brand {
   font-size: 2.5rem;
+  font-family: 'Ubuntu';
+  font-weight: bold;
 }
 
 .nav-link {
+  font-weight: lighter;
   font-size: 1.25rem;
+}
+
+/* Title image */
+.img-header {
+  transform: rotate(25deg);
+  overflow: hidden;
+  width: 70%;
+  padding: 5%;
+  align-content: center;
+  margin-bottom: -40%;
+}
+
+@media (max-width: 991px) {
+  #title {
+    text-align: center;
+  }
+  .img-header {
+    transform: rotate(0);
+  }
+}
+
+.box-image-header {
+  text-align: center;
+}
+
+/* Features Section */
+
+#features {
+  background-color: white;
+  position: relative;
+  z-index: 1;
+}
+
+.heading-small {
+  font-size: 1.25rem;
+  font-weight: 800;
+}
+
+.icon-feature {
+  color: #ef8172;
+  margin-bottom: 1rem;
+}
+
+.icon-feature:hover {
+  color: #ff4c68;
+}
+
+.text-small {
+  font-weight: 300;
+}
+
+.feature-box {
+  text-align: center;
+  padding: 0% 4%;
+}
+
+/* Testimonials Section */
+
+.carousel-item {
+  padding: 7% 15%;
+}
+
+#testimonials {
+  text-align: center;
+  background-color: #ef8172;
+  color: #fff;
+}
+
+.testimonial-image {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+/* Press section */
+
+#press {
+  background-color: #ef8172;
+  text-align: center;
+  padding-bottom: 3%;
+}
+
+.press-logo {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+#pricing {
+  padding: 5%;
+  text-align: center;
+}
+.column-pricing {
+  padding: 3% 2%;
+}
+
+.button-pricing {
+  width: 90%;
+}
+
+
+/* cta section */
+
+#cta {
+  background-color: #ef8172;
+  text-align: center;
+  padding: 5% 15%;
+
+}
+
+.cta-header {
+  font-size: 2.25rem;
+  color: #fff;
+}
+
+.footer-media {
+  padding: 3% 35%;
+  text-align: center;
+}
+
+.footer-copyright {
+  text-align: center;
+  font-weight: 300;
 }
