@@ -1,9 +1,15 @@
 body {
   font-family: 'Montserrat', sans-serif;
-
+  text-align: center;
 }
 
-h1 {
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 900;
+}
+
+/*  Headings */
+.big-heading {
   font-family: 'Montserrat', sans-serif;
   font-weight: 900;
   font-size: 3.5rem;
@@ -11,22 +17,44 @@ h1 {
   margin: 40px 0;
 }
 
-h2 {
-  font-family: 'Montserrat', sans-serif;
-  font-weight: 900;
+.section-heading {
   font-size: 3rem;
   line-height: 1.5;
 }
+
+.section-heading-white {
+  font-size: 3rem;
+  line-height: 1.5;
+  color: #fff;
+}
+
+.small-heading-black {
+  font-size: 1.25rem;
+  font-weight: 800;
+  color: #000;
+}
+
+.small-heading-white {
+  font-size: 1.25rem;
+  font-weight: 800;
+  color: #fff;
+}
+
+/* Containers */
+
+.container-fluid {
+  padding: 3% 15% 7%;
+}
+
+/* Title section */
 
 #title {
   color: #fff;
   background-color: #ff4c68;
 }
 
-
-
-.container-fluid {
-  padding: 3% 15% 7%;
+#title.container-fluid {
+  
 }
 
 .btn {
@@ -34,7 +62,6 @@ h2 {
 }
 
 /* Navigation Bar */
-
 .navbar-brand {
   font-size: 2.5rem;
   font-family: 'Ubuntu';
@@ -56,10 +83,11 @@ h2 {
   margin-bottom: -40%;
 }
 
-@media (max-width: 991px) {
+@media (min-width: 992px) {
   #title {
-    text-align: center;
+    text-align: left;
   }
+
   .img-header {
     transform: rotate(0);
   }
@@ -70,16 +98,10 @@ h2 {
 }
 
 /* Features Section */
-
 #features {
   background-color: white;
   position: relative;
   z-index: 1;
-}
-
-.heading-small {
-  font-size: 1.25rem;
-  font-weight: 800;
 }
 
 .icon-feature {
@@ -95,21 +117,16 @@ h2 {
   font-weight: 300;
 }
 
-.feature-box {
-  text-align: center;
-  padding: 0% 4%;
-}
-
 /* Testimonials Section */
-
-.carousel-item {
-  padding: 7% 15%;
-}
-
 #testimonials {
   text-align: center;
   background-color: #ef8172;
   color: #fff;
+}
+
+.testimonial-text {
+  font-size: 2rem;
+  line-height: 1.5;
 }
 
 .testimonial-image {
@@ -119,48 +136,38 @@ h2 {
 }
 
 /* Press section */
-
 #press {
   background-color: #ef8172;
-  text-align: center;
-  padding-bottom: 3%;
 }
 
 .press-logo {
-  width: 15%;
-  margin: 20px 20px 50px;
+  max-width: 100%;
+  padding: 7% 15%;
 }
 
 #pricing {
-  padding: 5%;
   text-align: center;
 }
-.column-pricing {
-  padding: 3% 2%;
+
+.price-text {
+  font-size: 3rem;
+  line-height: 1.5;
 }
 
 .button-pricing {
   width: 90%;
 }
 
-
 /* cta section */
-
 #cta {
   background-color: #ef8172;
   text-align: center;
-  padding: 5% 15%;
-
 }
 
-.cta-header {
-  font-size: 2.25rem;
-  color: #fff;
-}
+/* Footer section */
 
-.footer-media {
-  padding: 3% 35%;
-  text-align: center;
+.footer-icons {
+  padding: 3% 35% 1%;
 }
 
 .footer-copyright {
