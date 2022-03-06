@@ -1,5 +1,5 @@
 body{
-    font-family:'Montserrat';
+    font-family:'Ubuntu';
 }
 
 
@@ -10,7 +10,7 @@ body{
    
 }
 h1{
-    font-family: 'Montserrat-bold'
+    font-family: 'Montserrat';
     size: 4rem;
     line-height: 1.5;
 }
@@ -46,4 +46,23 @@ font-weight: bold;
     padding-top: 7%;
     width: 60%;
     transform: rotate(25deg) ;
+}
+/* Page 2-Features */
+
+.feature-dabba{
+    padding: 3% 15%;
+}
+.ft-top{
+    text-align: center;
+}
+h3{
+    font-family: Montserrat;
+    padding-top: 5%;
+    font-size: 1.5rem;
+}
+.fa-solid:hover{
+    color:#d87987
+}
+.ft-para{
+    color: #8f8f8f;
 }
