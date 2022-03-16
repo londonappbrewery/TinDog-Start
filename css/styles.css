@@ -49,20 +49,49 @@ font-weight: bold;
 }
 /* Page 2-Features */
 
-.feature-dabba{
-    padding: 3% 15%;
-}
+/* .feature-dabba{
+    padding: 7% 15%;
+} */
 .ft-top{
     text-align: center;
 }
+#features{
+    padding: 7% 15%;
+}
 h3{
-    font-family: Montserrat;
+    font-family:'Monserrat';
     padding-top: 5%;
     font-size: 1.5rem;
 }
+
 .fa-solid:hover{
-    color:#d87987
+    color:#ef8172;
 }
 .ft-para{
     color: #8f8f8f;
+}
+#testimonials{
+    background-color: #ef8172;
+    color:#ffffff;
+    padding: 7% 15%;
+    text-align: center;
+}
+h2{
+    font-family: 'Montserrat';
+    font-size: 3rem;
+    line-height: 1.5;
+}
+.testi-img{
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+#press{
+    background-color: #ef8172;
+    text-align: center;
+    padding-bottom: 3%;
+}
+.press-logo{
+    width: 15%;
+    margin: 20px 20px 50px;
 }
