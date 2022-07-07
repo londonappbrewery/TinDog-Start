@@ -1,0 +1,18 @@
+#title {
+  background-color: #ff4c68;
+}
+
+.navbar {
+  background-color: rgba(255, 255, 255, 0.11);
+}
+
+.container-fluid {
+  padding: 3% 10%;
+}
+
+h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  font-size: 3rem;
+  line-height: 1.5;
+}
