@@ -6,13 +6,38 @@
   background-color: rgba(255, 255, 255, 0.11);
 }
 
+.navbar-brand {
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: 500;
+}
+
 .container-fluid {
   padding: 3% 10%;
 }
 
+.title-section {
+  margin-bottom: -240px;
+}
+
 h1 {
+  color: white;
   font-family: 'Montserrat', sans-serif;
-  font-weight: 600;
+  font-weight: 700;
   font-size: 3rem;
   line-height: 1.5;
+}
+
+.title-img {
+  transform: rotate(20deg);
+  position: relative;
+  z-index: 1;
+}
+
+#features {
+  background-color: white;
+}
+
+.features-section {
+  position: relative;
+  z-index: 2;
 }
