@@ -1,3 +1,5 @@
+/* To comment/uncomment in CSS: ctrl + K and then ctrl + C */
+
 /* Navigation bar (that is in section with id Title) */
 
 .navbar {
@@ -22,21 +24,21 @@
 /* Title section */
 
 #title {
-  background-color: #ff4c68;
+  background-color: #FD3A73;
 }
 
 .container-fluid {
-  padding: 3% 10%;
+  padding: 9% 10%;
 }
 
 .title-section {
   font-family: 'Montserrat', sans-serif;
-  margin-bottom: -240px;
+  margin-bottom: 0px;
 }
 
 h1 {
   color: white;
-  font-weight: 700;
+  font-weight: bold;
   font-size: 3rem;
   line-height: 1.5;
 }
@@ -47,18 +49,46 @@ h1 {
 
 .title-img {
   transform: rotate(20deg);
-  position: relative;
-  width: 65%;
-  z-index: 1;
+  width: 60%;
 }
 
 /* Features section */
 
 #features {
   background-color: white;
-}
-
-.features-section {
   position: relative;
   z-index: 2;
+  font-family: 'Montserrat', sans-serif;
+  padding: 7% 15%;
+}
+
+h3 {
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+.feature-box p {
+  color: #8f8f8f;
+}
+
+.feature-box {
+  text-align: center;
+  padding: 3%;
+}
+
+.feature-box i {
+  color: #e96565;
+  margin-bottom: 2rem;
+}
+
+.feature-box i:hover {
+  color: #FD3A73;
+}
+
+/* Testimonials section */
+
+#testimonials {
+  padding: 7% 15%;
+  background-color: #e96565;
+  color: #fff;
 }
