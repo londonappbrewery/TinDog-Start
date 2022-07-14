@@ -1,14 +1,28 @@
-#title {
-  background-color: #ff4c68;
-}
+/* Navigation bar (that is in section with id Title) */
 
 .navbar {
   background-color: rgba(255, 255, 255, 0.11);
+  font-family: 'Ubuntu', sans-serif;
+  padding: 0 3%;
 }
 
 .navbar-brand {
-  font-family: 'Ubuntu', sans-serif;
   font-weight: 500;
+  font-size: 2rem;
+}
+
+.nav-item {
+  padding: 15px;
+}
+
+.nav-link {
+  font-size: 1.1rem;
+}
+
+/* Title section */
+
+#title {
+  background-color: #ff4c68;
 }
 
 .container-fluid {
@@ -16,22 +30,29 @@
 }
 
 .title-section {
+  font-family: 'Montserrat', sans-serif;
   margin-bottom: -240px;
 }
 
 h1 {
   color: white;
-  font-family: 'Montserrat', sans-serif;
   font-weight: 700;
   font-size: 3rem;
   line-height: 1.5;
 }
 
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
 .title-img {
   transform: rotate(20deg);
   position: relative;
+  width: 65%;
   z-index: 1;
 }
+
+/* Features section */
 
 #features {
   background-color: white;
