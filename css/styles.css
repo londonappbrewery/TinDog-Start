@@ -86,10 +86,14 @@ h3 {
 
 #testimonials {
   font-family: 'Montserrat', sans-serif;
-  padding: 7% 15%;
   background-color: #e96565;
   color: #fff;
   text-align: center;
+}
+
+.carousel-item {
+  height: 700px;
+  padding: 8% 15% 0;
 }
 
 h2 {
@@ -99,17 +103,18 @@ h2 {
 }
 
 .testimonial-img {
-  width: 40%;
+  width: 30%;
   border-radius: 8px;
-  margin: 20px;
+  margin: 25px;
 }
+
 
 /* Press section */
 
 #press {
   background-color: #e96565;
   text-align: center;
-  padding-bottom: 6%;
+  padding: 2% 0 6%;
 }
 
 .press-logo {
