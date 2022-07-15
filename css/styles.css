@@ -27,13 +27,10 @@
   background-color: #FD3A73;
 }
 
-.container-fluid {
-  padding: 9% 10%;
-}
-
 .title-section {
   font-family: 'Montserrat', sans-serif;
   margin-bottom: 0px;
+  padding: 9% 10%;
 }
 
 h1 {
@@ -88,7 +85,34 @@ h3 {
 /* Testimonials section */
 
 #testimonials {
+  font-family: 'Montserrat', sans-serif;
   padding: 7% 15%;
   background-color: #e96565;
   color: #fff;
+  text-align: center;
+}
+
+h2 {
+  font-weight: bold;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.testimonial-img {
+  width: 40%;
+  border-radius: 8px;
+  margin: 20px;
+}
+
+/* Press section */
+
+#press {
+  background-color: #e96565;
+  text-align: center;
+  padding-bottom: 6%;
+}
+
+.press-logo {
+  width: 15%;
+  margin: 0 20px 0;
 }
