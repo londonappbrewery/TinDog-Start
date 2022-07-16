@@ -36,7 +36,7 @@ p {
 
 .title-section {
   margin-bottom: 0px;
-  padding: 9% 10%;
+  padding: 9% 13% 14%;
 }
 
 h1 {
@@ -51,16 +51,18 @@ h1 {
 }
 
 .title-img {
-  transform: rotate(20deg);
-  width: 60%;
+  transform: rotate(25deg);
+  position: absolute;
 }
 
 /* Features section */
 
 #features {
+  background-color: #fff;
   position: relative;
   z-index: 2;
   padding: 7% 15%;
+  position: relative;
 }
 
 h3 {
