@@ -1,14 +1,21 @@
 /* To comment/uncomment in CSS: ctrl + K and then ctrl + C */
 
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+p {
+  color: #8f8f8f;
+}
 /* Navigation bar (that is in section with id Title) */
 
 .navbar {
   background-color: rgba(255, 255, 255, 0.11);
-  font-family: 'Ubuntu', sans-serif;
   padding: 0 3%;
 }
 
 .navbar-brand {
+  font-family: 'Ubuntu', sans-serif;
   font-weight: 500;
   font-size: 2rem;
 }
@@ -24,17 +31,16 @@
 /* Title section */
 
 #title {
-  background-color: #FD3A73;
+  background-color: #fd3a73;
 }
 
 .title-section {
-  font-family: 'Montserrat', sans-serif;
   margin-bottom: 0px;
   padding: 9% 10%;
 }
 
 h1 {
-  color: white;
+  color: #fff;
   font-weight: bold;
   font-size: 3rem;
   line-height: 1.5;
@@ -52,20 +58,14 @@ h1 {
 /* Features section */
 
 #features {
-  background-color: white;
   position: relative;
   z-index: 2;
-  font-family: 'Montserrat', sans-serif;
   padding: 7% 15%;
 }
 
 h3 {
   font-weight: bold;
   font-size: 1.5rem;
-}
-
-.feature-box p {
-  color: #8f8f8f;
 }
 
 .feature-box {
@@ -79,20 +79,18 @@ h3 {
 }
 
 .feature-box i:hover {
-  color: #FD3A73;
+  color: #fd3a73;
 }
 
 /* Testimonials section */
 
 #testimonials {
-  font-family: 'Montserrat', sans-serif;
   background-color: #e96565;
   color: #fff;
   text-align: center;
 }
 
 .carousel-item {
-  height: 700px;
   padding: 8% 15% 0;
 }
 
@@ -120,4 +118,20 @@ h2 {
 .press-logo {
   width: 15%;
   margin: 0 20px 0;
+}
+
+/* Pricing section */
+#pricing {
+  text-align: center;
+  padding: 7% 10%;;
+}
+
+.card-button:hover {
+  background-color: #fff;
+  border-image: linear-gradient(to right, #fd3a73, #e96565) 1;
+  color: #fd3a73;
+}
+
+h5 {
+  font-weight: bold;
 }
