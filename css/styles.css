@@ -92,8 +92,12 @@ h3 {
   text-align: center;
 }
 
+.carousel-inner {
+  min-height: 670px;
+}
+
 .carousel-item {
-  padding: 8% 15% 0;
+  padding: 7% 15% 0;
 }
 
 h2 {
@@ -136,4 +140,23 @@ h2 {
 
 h5 {
   font-weight: bold;
+}
+
+/* Media queries */
+
+@media (max-width: 1070px) {
+  #title {
+    text-align: center;
+  }
+
+  .img-container {
+    width: 100%;
+    position: static;
+  }
+
+  .title-img {
+    padding-top: 20px;
+    position: static;
+    transform: rotate(0);
+  }
 }
