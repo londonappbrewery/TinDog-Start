@@ -112,6 +112,10 @@ h5 {
   padding: 7% 15% 0;
 }
 
+.carousel-item {
+  padding: 7% 15% 0;
+}
+
 .testimonial-img {
   width: 30%;
   border-radius: 8px;
@@ -158,6 +162,25 @@ h5 {
 #footer {
   text-align: center;
   padding: 3% 0 1%;
+}
+
+/* Media queries */
+
+@media (max-width: 1070px) {
+  #title {
+    text-align: center;
+  }
+
+  .img-container {
+    width: 100%;
+    position: static;
+  }
+
+  .title-img {
+    padding-top: 20px;
+    position: static;
+    transform: rotate(0);
+  }
 }
 
 /* Media queries */
