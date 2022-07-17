@@ -2,12 +2,15 @@
 
 body {
   font-family: 'Montserrat', sans-serif;
+  text-align: center;
 }
 
 p {
   color: #8f8f8f;
   margin: 10px 0 20px;
 }
+
+/* Headers */
 
 h1, h2, h3, h5 {
   font-weight: bold;
@@ -16,6 +19,24 @@ h1, h2, h3, h5 {
 h3 {
   font-size: 1.5rem;
 }
+
+.big-white-header {
+  color: #fff;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.big-header {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+/*  */
+
+em {
+  color: #fff;
+}
+
 /* Navigation bar (that is in section with id Title) */
 
 .navbar {
@@ -41,17 +62,12 @@ h3 {
 
 #title {
   background-color: #fd3a73;
+  text-align: left;
 }
 
 .title-section {
   margin-bottom: 0px;
   padding: 9% 13% 14%;
-}
-
-.big-white-header {
-  color: #fff;
-  font-size: 3rem;
-  line-height: 1.5;
 }
 
 .download-button {
@@ -74,7 +90,6 @@ h3 {
 }
 
 .feature-box {
-  text-align: center;
   padding: 3%;
 }
 
@@ -91,7 +106,6 @@ h3 {
 
 #testimonials {
   background-color: #e96565;
-  text-align: center;
 }
 
 .carousel-inner {
@@ -113,7 +127,6 @@ h3 {
 
 #press {
   background-color: #e96565;
-  text-align: center;
   padding: 2% 0 6%;
 }
 
@@ -125,13 +138,7 @@ h3 {
 /* Pricing section */
 
 #pricing {
-  text-align: center;
   padding: 6% 10%;;
-}
-
-.big-header {
-    font-size: 3rem;
-    line-height: 1.5;
 }
 
 .card-button:hover {
@@ -145,13 +152,11 @@ h3 {
 #cta {
   background-color: #fd3a73;
   padding: 7% 10% 5%;
-  text-align: center;
 }
 
 /* Footer */
 
 #footer {
-  text-align: center;
   padding: 3% 0 1%;
 }
 
