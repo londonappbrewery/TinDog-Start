@@ -9,28 +9,13 @@ p {
   margin: 10px 0 20px;
 }
 
-h1 {
-  color: #fff;
+h1, h2, h3, h5 {
   font-weight: bold;
-  font-size: 3rem;
-  line-height: 1.5;
-}
-
-h2 {
-  font-weight: bold;
-  font-size: 3rem;
-  line-height: 1.5;
 }
 
 h3 {
-  font-weight: bold;
   font-size: 1.5rem;
 }
-
-h5 {
-  font-weight: bold;
-}
-
 /* Navigation bar (that is in section with id Title) */
 
 .navbar {
@@ -61,6 +46,12 @@ h5 {
 .title-section {
   margin-bottom: 0px;
   padding: 9% 13% 14%;
+}
+
+.big-white-header {
+  color: #fff;
+  font-size: 3rem;
+  line-height: 1.5;
 }
 
 .download-button {
@@ -100,16 +91,11 @@ h5 {
 
 #testimonials {
   background-color: #e96565;
-  color: #fff;
   text-align: center;
 }
 
 .carousel-inner {
-  min-height: 670px;
-}
-
-.carousel-item {
-  padding: 7% 15% 0;
+  height: 680px;
 }
 
 .carousel-item {
@@ -137,9 +123,15 @@ h5 {
 }
 
 /* Pricing section */
+
 #pricing {
   text-align: center;
-  padding: 7% 10%;;
+  padding: 6% 10%;;
+}
+
+.big-header {
+    font-size: 3rem;
+    line-height: 1.5;
 }
 
 .card-button:hover {
@@ -152,7 +144,6 @@ h5 {
 
 #cta {
   background-color: #fd3a73;
-  color: #fff;
   padding: 7% 10% 5%;
   text-align: center;
 }
