@@ -6,7 +6,31 @@ body {
 
 p {
   color: #8f8f8f;
+  margin: 10px 0 20px;
 }
+
+h1 {
+  color: #fff;
+  font-weight: bold;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+h2 {
+  font-weight: bold;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+h3 {
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+h5 {
+  font-weight: bold;
+}
+
 /* Navigation bar (that is in section with id Title) */
 
 .navbar {
@@ -39,13 +63,6 @@ p {
   padding: 9% 13% 14%;
 }
 
-h1 {
-  color: #fff;
-  font-weight: bold;
-  font-size: 3rem;
-  line-height: 1.5;
-}
-
 .download-button {
   margin: 5% 3% 5% 0;
 }
@@ -63,11 +80,6 @@ h1 {
   z-index: 2;
   padding: 7% 15%;
   position: relative;
-}
-
-h3 {
-  font-weight: bold;
-  font-size: 1.5rem;
 }
 
 .feature-box {
@@ -100,10 +112,8 @@ h3 {
   padding: 7% 15% 0;
 }
 
-h2 {
-  font-weight: bold;
-  font-size: 3rem;
-  line-height: 1.5;
+.carousel-item {
+  padding: 7% 15% 0;
 }
 
 .testimonial-img {
@@ -138,8 +148,39 @@ h2 {
   color: #fd3a73;
 }
 
-h5 {
-  font-weight: bold;
+/* Call to action */
+
+#cta {
+  background-color: #fd3a73;
+  color: #fff;
+  padding: 7% 10% 5%;
+  text-align: center;
+}
+
+/* Footer */
+
+#footer {
+  text-align: center;
+  padding: 3% 0 1%;
+}
+
+/* Media queries */
+
+@media (max-width: 1070px) {
+  #title {
+    text-align: center;
+  }
+
+  .img-container {
+    width: 100%;
+    position: static;
+  }
+
+  .title-img {
+    padding-top: 20px;
+    position: static;
+    transform: rotate(0);
+  }
 }
 
 /* Media queries */
