@@ -9,7 +9,7 @@ body {
 
 h1 {
     font-family: 'Montserrat-black', sans-serif;
-    size: 3rem;
+    size: 3.5rem;
     line-height: 1.5;
 }
 
@@ -42,4 +42,10 @@ h1 {
 /* Download buttons */
 .download-button {
     margin: 5% 3% 5% 0;
+}
+
+/* title image */
+.title-image {
+    width: 60%;
+    transform: rotate(25deg);
 }
