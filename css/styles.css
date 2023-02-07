@@ -38,4 +38,8 @@ h1 {
 }
 
 /* Never target the default bootstrap classes in custom CSS. */
+
 /* Download buttons */
+.download-button {
+    margin: 5% 3% 5% 0;
+}
