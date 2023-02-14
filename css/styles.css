@@ -49,3 +49,34 @@ h1 {
     width: 60%;
     transform: rotate(25deg);
 }
+
+/* features */
+#features {
+    padding: 7% 15%;
+}
+
+.features-icon {
+    color: #ef8172;
+    margin-bottom: 1.2rem;
+}
+
+/* Change the colour of an element based on its hoverstate */
+.features-icon:hover {
+    color: #ff4c68;
+}
+
+.features-title {
+    font-family: "Montserrat-Bold";
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.features-subtitle {
+    color: #8f8f8f;
+    text-align: center;
+}
+
+.features-column {
+    text-align: center;
+    padding: 5%;
+}
