@@ -13,6 +13,12 @@ h1 {
     line-height: 1.5;
 }
 
+h2 {
+    font-family: "Montserrat-Bold";
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
 .container-fluid {
     padding: 3% 15%;
 }
@@ -79,4 +85,32 @@ h1 {
 .features-column {
     text-align: center;
     padding: 5%;
+}
+
+/* testimonials */
+
+#testimonials {
+    padding: 7% 15%;
+    background-color: #ef8172;
+    text-align: center;
+    color: white;
+}
+
+.testimonials-image {
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+/* press */
+
+#press {
+    background-color: #ef8172;
+    text-align: center;
+    padding: 3%;
+}
+
+.press-logo {
+    width: 15%;
+    margin: 20px 20px 50px;
 }
