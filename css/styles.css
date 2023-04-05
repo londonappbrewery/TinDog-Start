@@ -30,6 +30,9 @@ p {
 
 #features {
     padding: 7% 14%;
+    position: relative;
+    margin-top: -210px;
+    background-color: white;
 }
 
 /* Navigation Bar */
